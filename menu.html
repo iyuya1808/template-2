@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お料理・お飲み物メニュー | 雅 - 本格和食と厳選酒の居酒屋</title>
+    <meta name="description" content="居酒屋「雅」の豊富なメニューをご紹介。新鮮な刺身、季節の天ぷら、こだわりの焼き物から厳選日本酒、飲み放題プランまで。価格も明確に掲載。">
+    <meta name="keywords" content="居酒屋メニュー,刺身,天ぷら,焼き物,日本酒,飲み放題,価格,料金,成瀬">
+    <link rel="canonical" href="https://example-izakaya.com/menu.html">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="お料理・お飲み物メニュー | 雅">
+    <meta property="og:description" content="新鮮な刺身、季節の天ぷら、厳選日本酒など豊富なメニューをご用意。">
+    <meta property="og:image" content="https://example-izakaya.com/assets/images/menu-hero.jpg">
+    <meta property="og:url" content="https://example-izakaya.com/menu.html">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Menu",
+        "name": "雅のお料理・お飲み物メニュー",
+        "description": "本格和食と厳選酒のメニュー",
+        "hasMenuSection": [
+            {
+                "@type": "MenuSection",
+                "name": "前菜・小鉢",
+                "description": "季節感あふれる前菜と小鉢料理"
+            },
+            {
+                "@type": "MenuSection", 
+                "name": "刺身・海鮮",
+                "description": "毎朝仕入れる新鮮な魚介類"
+            },
+            {
+                "@type": "MenuSection",
+                "name": "焼き物",
+                "description": "炭火で焼き上げる香ばしい一品"
+            },
+            {
+                "@type": "MenuSection",
+                "name": "揚げ物",
+                "description": "サクサクの天ぷらと唐揚げ"
+            },
+            {
+                "@type": "MenuSection",
+                "name": "お飲み物",
+                "description": "厳選日本酒とこだわりのお酒"
+            }
+        ]
+    }
+    </script>
+    
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <a href="index.html" class="nav-logo" aria-label="トップページに戻る">
+                    <h1 class="logo-text">雅</h1>
+                    <span class="logo-subtitle">MIYABI</span>
+                </a>
+                
+                <button class="nav-toggle" aria-label="メニューを開く" aria-expanded="false">
+                    <span class="hamburger"></span>
+                </button>
+                
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">ホーム</a></li>
+                    <li><a href="menu.html" class="nav-link active">お料理・お飲み物</a></li>
+                    <li><a href="about.html" class="nav-link">店舗情報</a></li>
+                    <li><a href="gallery.html" class="nav-link">ギャラリー</a></li>
+                    <li><a href="access.html" class="nav-link">アクセス</a></li>
+                    <li><a href="contact.html" class="nav-link">ご予約・お問い合わせ</a></li>
+                </ul>
+                
+                <a href="tel:+81-42-123-4567" class="nav-phone">
+                    <svg class="phone-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                    </svg>
+                    042-123-4567
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-image">
+                <!-- 推奨画像サイズ: 1920x1080px (16:9), menu-hero.jpg -->
+                <img src="assets/images/menu-hero.jpg" alt="雅の料理盛り合わせ" loading="eager">
+            </div>
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">お料理・お飲み物メニュー</h1>
+                    <p class="hero-subtitle">季節の恵みを活かした本格和食と<br>厳選された地酒をお楽しみください</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Sections -->
+        <div class="container" style="padding: 4rem 1rem;">
+            
+            <!-- 前菜・小鉢 -->
+            <section class="menu-category">
+                <h2 class="category-title">前菜・小鉢</h2>
+                <div class="menu-items">
+                    <article class="menu-dish">
+                        <div class="dish-info">
+                            <h3 class="dish-name">季節の前菜盛り合わせ</h3>
+                            <p class="dish-description">旬の野菜と海の幸を使った彩り豊かな前菜を五種盛り合わせで</p>
+                        </div>
+                        <span class="dish-price">¥1,800</span>
+                    </article>
+                    
+                    <article class="menu-dish">
+                        <div class="dish-info">
+                            <h3 class="dish-name">胡麻豆腐</h3>
+                            <p class="dish-description">なめらかな口当たりと胡麻の風味が楽しめる自家製胡麻豆腐</p>
+                        </div>
+                        <span class="dish-price">¥680</span>
+                    </article>
+                    
+                    <article class="menu-dish">
+                        <div class="dish-info">
+                            <h3 class="dish-name">だし巻き玉子</h3>
+                            <p class="dish-description">関西風の甘めのだしを効かせたふわふわのだし巻き玉子</p>
+                        </div>
+                        <span class="dish-price">¥750</span>
+                    </article>
+                    
+                    <article class="menu-dish">
+                        <div class="dish-info">
+                            <h3 class="dish-name">お通し</h3>
+                            <p class="dish-description">季節の食材を使った小鉢料理（内容は日替わり）</p>
+                        </div>
+                        <span class="dish-price">¥500</span>
+                    </article>
+                </div>
+            </section>
+
+            <!-- 刺身・海鮮 -->
+            <section class="menu-category">
+                <h2 class="category-title">刺身・海鮮</h2>
+                <div class="menu-items">
+                    <article class="menu-dish">
+                        <div class="dish-info">
+                            <h3 class="dish-name">本日の刺身盛り合わせ（二人前）</h3>
+                            <p class="dish-description">朝市で仕入れた鮮魚を厳選、マグロ、ハマチ、季節の白身魚など</p>
+                        </div>
+                        <span class="dish-price">¥2,800</span>
+                    </article>
+                    
+                    <article class="menu-dish">
+                        <div class="dish-info">
+                            <h3 class="dish-name">中トロ（2貫）</h3>
+                            <p class="dish-description">脂の乗った上質な中トロを薄造りで</p>
+                        </div>
+                        <span class="dish-price">¥1,200</span>
+                    </article>
+                    
+                    <article class="menu-dish">
+                        <div class="dish-info">
+                            <h3 class="dish-name">ホタテの刺身</h3>
+                            <p class="dish-description">北海道産の大粒ホタテ、甘みと食感をお楽しみください</p>
+                        </div>
+                        <span class="dish-price">¥980</span>
+                    </article>
+                    
+                    <article class="menu-dish">
+                        <div class="dish-info">
+                            <h3 class="dish-name">〆鯖</h3>
+                            <p class="dish-description">酢でしめた鯖を昆布で包み、深い味わいに仕上げました</p>
+                        </div>
+                        <span class="dish-price">¥850</span>
+                    </article>
+                    
+                    <article class="menu-dish">
+                        <div class="dish-info">
+                            <h3 class="dish-name">活き造り（時価）</h3>
+                            <p class="dish-description">入荷状況により、活きの良い魚を活き造りでご提供</p>
+                        </div>
+                        <span class="dish-price">時価</span>
+                    </article>
+                </div>
+            </section>
+
+            <!-- 焼き物 -->
+            <section class="menu-category">
+                <h2 class="category-title">焼き物</h2>
+                <div class="menu-items">
+                    <article class="menu-dish">
+                        <div class="dish-info">
+                            <h3 class="dish-name">銀だらの西京焼き</h3>
+                            <p class="dish-description">上質な銀だらを白味噌に漬け込み、じっくりと焼き上げた逸品</p>
+                        </div>
+                        <span class="dish-price">¥1,380</span>
+                    </article>
+                    
+                    <article class="menu-dish">
+                        <div class="dish-info">
+                            <h3 class="dish-name">鶏の照り焼き</h3>
+                            <p class="dish-description">国産鶏もも肉をタレに漬け込み、炭火でパリッと焼き上げました</p>
+                        </div>
+                        <span class="dish-price">¥980</span>
+                    </article>
+                    
+                    <article class="menu-dish">
+                        <div class="dish-info">
+                            <h3 class="dish-name">焼き鳥盛り合わせ（5本）</h3>
+                            <p class="dish-description">もも、つくね、ねぎま、かわ、レバーの定番5種類</p>
+                        </div>
+                        <span class="dish-price">¥1,200</span>
+                    </article>
+                    
+                    <article class="menu-dish">
+                        <div class="dish-info">
+                            <h3 class="dish-name">秋刀魚の塩焼き（季節限定）</h3>
+                            <p class="dish-description">脂の乗った秋刀魚を塩でシンプルに焼き上げました</p>
+                        </div>
+                        <span class="dish-price">¥880</span>
+                    </article>
+                    
+                    <article class="menu-dish">
+                        <div class="dish-info">
+                            <h3 class="dish-name">炙りチャーシュー</h3>
+                            <p class="dish-description">豚バラ肉をタレで煮込み、表面を炙って香ばしく仕上げました</p>
+                        </div>
+                        <span class="dish-price">¥780</span>
+                    </article>
+                </div>
+            </section>
+
+            <!-- 揚げ物 -->
+            <section class="menu-category">
+                <h2 class="category-title">揚げ物</h2>
+                <div class="menu-items">
+                    <article class="menu-dish">
+                        <div class="dish-info">
+                            <h3 class="dish-name">季節野菜の天ぷら盛り合わせ</h3>
+                            <p class="dish-description">旬の野菜とエビを軽やかな衣で揚げた天ぷらの盛り合わせ</p>
+                        </div>
+                        <span class="dish-price">¥1,500</span>
+                    </article>
+                    
+                    <article class="menu-dish">
+                        <div class="dish-info">
+                            <h3 class="dish-name">あなごの天ぷら</h3>
+                            <p class="dish-description">ふわっとした食感のあなごを、カラッと揚げた天ぷら</p>
+                        </div>
+                        <span class="dish-price">¥1,200</span>
+                    </article>
+                    
+                    <article class="menu-dish">
+                        <div class="dish-info">
+                            <h3 class="dish-name">鶏の唐揚げ</h3>
+                            <p class="dish-description">国産鶏を特製醤油ダレに漬け込み、カリッと揚げました</p>
+                        </div>
+                        <span class="dish-price">¥880</span>
+                    </article>
+                    
+                    <article class="menu-dish">
+                        <div class="dish-info">
+                            <h3 class="dish-name">カキフライ（3個）</h3>
+                            <p class="dish-description">広島産の大粒牡蠣をサクサクの衣で包んだフライ</p>
+                        </div>
+                        <span class="dish-price">¥1,080</span>
+                    </article>
+                </div>
+            </section>
+
+            <!-- ご飯・麺類 -->
+            <section class="menu-category">
+                <h2 class="category-title">ご飯・麺類</h2>
+                <div class="menu-items">
+                    <article class="menu-dish">
+                        <div class="dish-info">
+                            <h3 class="dish-name">海鮮丼</h3>
+                            <p class="dish-description">新鮮な刺身をたっぷりのせた海鮮丼、味噌汁付き</p>
+                        </div>
+                        <span class="dish-price">¥1,680</span>
+                    </article>
+                    
+                    <article class="menu-dish">
+                        <div class="dish-info">
+                            <h3 class="dish-name">雅特製炊き込みご飯</h3>
+                            <p class="dish-description">季節の具材と昆布だしで炊き上げた香り豊かな炊き込みご飯</p>
+                        </div>
+                        <span class="dish-price">¥980</span>
+                    </article>
+                    
+                    <article class="menu-dish">
+                        <div class="dish-info">
+                            <h3 class="dish-name">〆のうどん</h3>
+                            <p class="dish-description">関西風の優しいだしが自慢のうどん、ネギとかまぼこ付き</p>
+                        </div>
+                        <span class="dish-price">¥680</span>
+                    </article>
+                </div>
+            </section>
+
+            <!-- お飲み物 -->
+            <section class="menu-category">
+                <h2 class="category-title">お飲み物</h2>
+                
+                <!-- 日本酒 -->
+                <div style="margin-bottom: 2rem;">
+                    <h3 style="font-size: 1.25rem; margin-bottom: 1rem; color: #1a365d;">日本酒</h3>
+                    <div class="menu-items">
+                        <article class="menu-dish">
+                            <div class="dish-info">
+                                <h4 class="dish-name">飲み比べセット（3種）</h4>
+                                <p class="dish-description">全国各地の地酒から厳選した3種類をお猪口でご提供</p>
+                            </div>
+                            <span class="dish-price">¥1,800</span>
+                        </article>
+                        
+                        <article class="menu-dish">
+                            <div class="dish-info">
+                                <h4 class="dish-name">獺祭 純米大吟醸</h4>
+                                <p class="dish-description">山口県の代表的な銘酒、華やかな香りとクリアな味わい</p>
+                            </div>
+                            <span class="dish-price">¥950 / ¥6,800（一升）</span>
+                        </article>
+                        
+                        <article class="menu-dish">
+                            <div class="dish-info">
+                                <h4 class="dish-name">黒龍 特別純米</h4>
+                                <p class="dish-description">福井県の名酒、米の旨味と酸味のバランスが絶妙</p>
+                            </div>
+                            <span class="dish-price">¥780 / ¥5,200（一升）</span>
+                        </article>
+                        
+                        <article class="menu-dish">
+                            <div class="dish-info">
+                                <h4 class="dish-name">季節限定酒</h4>
+                                <p class="dish-description">入荷状況により、季節ごとの限定酒をご用意</p>
+                            </div>
+                            <span class="dish-price">¥800〜</span>
+                        </article>
+                    </div>
+                </div>
+                
+                <!-- ビール・焼酎など -->
+                <div style="margin-bottom: 2rem;">
+                    <h3 style="font-size: 1.25rem; margin-bottom: 1rem; color: #1a365d;">ビール・焼酎・その他</h3>
+                    <div class="menu-items">
+                        <article class="menu-dish">
+                            <div class="dish-info">
+                                <h4 class="dish-name">生ビール（サッポロ黒ラベル）</h4>
+                                <p class="dish-description">中ジョッキ / 大ジョッキ</p>
+                            </div>
+                            <span class="dish-price">¥580 / ¥780</span>
+                        </article>
+                        
+                        <article class="menu-dish">
+                            <div class="dish-info">
+                                <h4 class="dish-name">芋焼酎「魔王」</h4>
+                                <p class="dish-description">鹿児島県の幻の焼酎、ロック・水割り・お湯割り</p>
+                            </div>
+                            <span class="dish-price">¥1,200</span>
+                        </article>
+                        
+                        <article class="menu-dish">
+                            <div class="dish-info">
+                                <h4 class="dish-name">麦焼酎「兼八」</h4>
+                                <p class="dish-description">大分県の麦焼酎、すっきりとした飲み口</p>
+                            </div>
+                            <span class="dish-price">¥680</span>
+                        </article>
+                        
+                        <article class="menu-dish">
+                            <div class="dish-info">
+                                <h4 class="dish-name">梅酒</h4>
+                                <p class="dish-description">和歌山県産南高梅を使用した自家製梅酒</p>
+                            </div>
+                            <span class="dish-price">¥580</span>
+                        </article>
+                    </div>
+                </div>
+                
+                <!-- 飲み放題プラン -->
+                <div>
+                    <h3 style="font-size: 1.25rem; margin-bottom: 1rem; color: #1a365d;">飲み放題プラン</h3>
+                    <div class="menu-items">
+                        <article class="menu-dish">
+                            <div class="dish-info">
+                                <h4 class="dish-name">スタンダード飲み放題（2時間）</h4>
+                                <p class="dish-description">生ビール、日本酒（5種）、焼酎、梅酒、ソフトドリンク</p>
+                            </div>
+                            <span class="dish-price">¥2,800</span>
+                        </article>
+                        
+                        <article class="menu-dish">
+                            <div class="dish-info">
+                                <h4 class="dish-name">プレミアム飲み放題（2時間）</h4>
+                                <p class="dish-description">上記に加え、獺祭、黒龍、魔王などの銘酒も含む</p>
+                            </div>
+                            <span class="dish-price">¥3,800</span>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- コース料理 -->
+            <section class="menu-category">
+                <h2 class="category-title">コース料理</h2>
+                <div class="menu-items">
+                    <article class="menu-dish">
+                        <div class="dish-info">
+                            <h3 class="dish-name">雅コース（お一人様）</h3>
+                            <p class="dish-description">前菜、刺身、焼き物、揚げ物、ご飯、デザートの全6品</p>
+                        </div>
+                        <span class="dish-price">¥4,500</span>
+                    </article>
+                    
+                    <article class="menu-dish">
+                        <div class="dish-info">
+                            <h3 class="dish-name">特選コース（お一人様）</h3>
+                            <p class="dish-description">季節の特選食材を使用した全8品の豪華コース</p>
+                        </div>
+                        <span class="dish-price">¥6,800</span>
+                    </article>
+                    
+                    <article class="menu-dish">
+                        <div class="dish-info">
+                            <h3 class="dish-name">Omakase（おまかせコース）</h3>
+                            <p class="dish-description">料理長おまかせの季節感あふれるコース料理（要予約）</p>
+                        </div>
+                        <span class="dish-price">¥8,000〜</span>
+                    </article>
+                </div>
+                
+                <div style="margin-top: 2rem; padding: 1.5rem; background-color: #f7fafc; border-radius: 8px;">
+                    <h3 style="font-size: 1.1rem; margin-bottom: 1rem; color: #1a365d;">コース料理について</h3>
+                    <ul style="color: #4a5568; line-height: 1.7;">
+                        <li>• コース料理は2名様以上でご利用ください</li>
+                        <li>• 飲み放題プランとの組み合わせも可能です</li>
+                        <li>• アレルギーや苦手な食材がございましたら事前にお知らせください</li>
+                        <li>• Omakaseコースは3日前までのご予約が必要です</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- 予約・お問い合わせ案内 -->
+            <section style="text-align: center; margin-top: 4rem; padding: 3rem 2rem; background-color: #1a365d; border-radius: 12px; color: white;">
+                <h2 style="font-size: 1.5rem; margin-bottom: 1rem; color: white;">ご予約・お問い合わせ</h2>
+                <p style="margin-bottom: 2rem; opacity: 0.9;">お席のご予約やコース料理のご相談は、お電話にて承っております</p>
+                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                    <a href="tel:+81-42-123-4567" class="btn btn-primary">
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                        </svg>
+                        電話予約：042-123-4567
+                    </a>
+                    <a href="contact.html" class="btn btn-secondary">予約フォーム</a>
+                </div>
+                <p style="font-size: 0.875rem; margin-top: 1rem; opacity: 0.7;">営業時間：月〜土 17:00-24:00（日曜定休）</p>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3 class="footer-title">雅 MIYABI</h3>
+                    <address class="footer-address">
+                        〒194-0045<br>
+                        東京都町田市南成瀬1-2-3 成瀬ビル2F<br>
+                        <a href="tel:+81-42-123-4567" class="footer-phone">TEL: 042-123-4567</a>
+                    </address>
+                    <div class="footer-hours">
+                        <strong>営業時間:</strong> 月〜土 17:00-24:00（日曜定休）
+                    </div>
+                </div>
+                
+                <nav class="footer-nav">
+                    <h4 class="footer-nav-title">サイトマップ</h4>
+                    <ul class="footer-menu">
+                        <li><a href="index.html">ホーム</a></li>
+                        <li><a href="menu.html">お料理・お飲み物</a></li>
+                        <li><a href="about.html">店舗情報</a></li>
+                        <li><a href="gallery.html">ギャラリー</a></li>
+                        <li><a href="access.html">アクセス</a></li>
+                        <li><a href="contact.html">ご予約・お問い合わせ</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="footer-copyright">&copy; 2024 雅 MIYABI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

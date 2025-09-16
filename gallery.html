@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ギャラリー | 雅 - 本格和食と厳選酒の居酒屋</title>
+    <meta name="description" content="居酒屋「雅」の料理、店内、外観の写真ギャラリー。美しい盛り付けの和食料理と落ち着いた和モダン空間をご覧ください。">
+    <meta name="keywords" content="ギャラリー,料理写真,店内写真,和食,居酒屋,成瀬,写真">
+    <link rel="canonical" href="https://example-izakaya.com/gallery.html">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="ギャラリー | 雅">
+    <meta property="og:description" content="美しい盛り付けの和食料理と落ち着いた和モダン空間をご覧ください。">
+    <meta property="og:image" content="https://example-izakaya.com/assets/images/gallery-hero.jpg">
+    <meta property="og:url" content="https://example-izakaya.com/gallery.html">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ImageGallery",
+        "name": "雅のギャラリー",
+        "description": "居酒屋雅の料理と店内の写真ギャラリー",
+        "about": {
+            "@type": "Restaurant",
+            "name": "雅",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "南成瀬1-2-3 成瀬ビル2F",
+                "addressLocality": "町田市",
+                "addressRegion": "東京都",
+                "postalCode": "194-0045",
+                "addressCountry": "JP"
+            }
+        }
+    }
+    </script>
+    
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <a href="index.html" class="nav-logo" aria-label="トップページに戻る">
+                    <h1 class="logo-text">雅</h1>
+                    <span class="logo-subtitle">MIYABI</span>
+                </a>
+                
+                <button class="nav-toggle" aria-label="メニューを開く" aria-expanded="false">
+                    <span class="hamburger"></span>
+                </button>
+                
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">ホーム</a></li>
+                    <li><a href="menu.html" class="nav-link">お料理・お飲み物</a></li>
+                    <li><a href="about.html" class="nav-link">店舗情報</a></li>
+                    <li><a href="gallery.html" class="nav-link active">ギャラリー</a></li>
+                    <li><a href="access.html" class="nav-link">アクセス</a></li>
+                    <li><a href="contact.html" class="nav-link">ご予約・お問い合わせ</a></li>
+                </ul>
+                
+                <a href="tel:+81-42-123-4567" class="nav-phone">
+                    <svg class="phone-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                    </svg>
+                    042-123-4567
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-image">
+                <!-- 推奨画像サイズ: 1920x1080px (16:9), gallery-hero.jpg -->
+                <img src="assets/images/gallery-hero.jpg" alt="雅の美しい料理の数々" loading="eager">
+            </div>
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">ギャラリー</h1>
+                    <p class="hero-subtitle">職人が織りなす美の世界<br>目で味わう和食の芸術</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Navigation -->
+        <section style="background-color: #f7fafc; padding: 2rem 0;">
+            <div class="container">
+                <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+                    <button class="gallery-filter active" data-filter="all" style="padding: 0.75rem 1.5rem; border: 2px solid #1a365d; background: #1a365d; color: white; border-radius: 6px; cursor: pointer; font-weight: 600; transition: all 0.2s ease;">すべて</button>
+                    <button class="gallery-filter" data-filter="food" style="padding: 0.75rem 1.5rem; border: 2px solid #1a365d; background: transparent; color: #1a365d; border-radius: 6px; cursor: pointer; font-weight: 600; transition: all 0.2s ease;">お料理</button>
+                    <button class="gallery-filter" data-filter="interior" style="padding: 0.75rem 1.5rem; border: 2px solid #1a365d; background: transparent; color: #1a365d; border-radius: 6px; cursor: pointer; font-weight: 600; transition: all 0.2s ease;">店内</button>
+                    <button class="gallery-filter" data-filter="exterior" style="padding: 0.75rem 1.5rem; border: 2px solid #1a365d; background: transparent; color: #1a365d; border-radius: 6px; cursor: pointer; font-weight: 600; transition: all 0.2s ease;">外観</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Grid -->
+        <section style="padding: 4rem 0;">
+            <div class="container">
+                <div class="gallery-grid">
+                    <!-- 料理写真 -->
+                    <div class="gallery-item" data-category="food">
+                        <!-- 推奨画像サイズ: 600x400px (3:2), sashimi-platter.jpg -->
+                        <img src="assets/images/sashimi-platter.jpg" alt="本日の刺身盛り合わせ" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-caption">本日の刺身盛り合わせ</div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="food">
+                        <!-- 推奨画像サイズ: 600x400px (3:2), tempura-assort.jpg -->
+                        <img src="assets/images/tempura-assort.jpg" alt="季節野菜の天ぷら盛り合わせ" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-caption">季節野菜の天ぷら盛り合わせ</div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="food">
+                        <!-- 推奨画像サイズ: 600x400px (3:2), grilled-fish.jpg -->
+                        <img src="assets/images/grilled-fish.jpg" alt="銀だらの西京焼き" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-caption">銀だらの西京焼き</div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="food">
+                        <!-- 推奨画像サイズ: 600x400px (3:2), sake-flight.jpg -->
+                        <img src="assets/images/sake-flight.jpg" alt="日本酒飲み比べセット" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-caption">日本酒飲み比べセット</div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="food">
+                        <!-- 推奨画像サイズ: 600x400px (3:2), kaiseki-course.jpg -->
+                        <img src="assets/images/kaiseki-course.jpg" alt="雅特選コース" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-caption">雅特選コース</div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="food">
+                        <!-- 推奨画像サイズ: 600x400px (3:2), seasonal-appetizer.jpg -->
+                        <img src="assets/images/seasonal-appetizer.jpg" alt="季節の前菜盛り合わせ" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-caption">季節の前菜盛り合わせ</div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="food">
+                        <!-- 推奨画像サイズ: 600x400px (3:2), yakitori-platter.jpg -->
+                        <img src="assets/images/yakitori-platter.jpg" alt="焼き鳥盛り合わせ" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-caption">焼き鳥盛り合わせ</div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="food">
+                        <!-- 推奨画像サイズ: 600x400px (3:2), seafood-bowl.jpg -->
+                        <img src="assets/images/seafood-bowl.jpg" alt="海鮮丼" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-caption">海鮮丼</div>
+                        </div>
+                    </div>
+
+                    <!-- 店内写真 -->
+                    <div class="gallery-item" data-category="interior">
+                        <!-- 推奨画像サイズ: 600x400px (3:2), interior-main.jpg -->
+                        <img src="assets/images/interior-main.jpg" alt="店内メインダイニング" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-caption">店内メインダイニング</div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="interior">
+                        <!-- 推奨画像サイズ: 600x400px (3:2), counter-seats.jpg -->
+                        <img src="assets/images/counter-seats.jpg" alt="カウンター席" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-caption">カウンター席</div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="interior">
+                        <!-- 推奨画像サイズ: 600x400px (3:2), private-room-1.jpg -->
+                        <img src="assets/images/private-room-1.jpg" alt="個室（4名様用）" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-caption">個室（4名様用）</div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="interior">
+                        <!-- 推奨画像サイズ: 600x400px (3:2), private-room-2.jpg -->
+                        <img src="assets/images/private-room-2.jpg" alt="個室（8名様用）" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-caption">個室（8名様用）</div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="interior">
+                        <!-- 推奨画像サイズ: 600x400px (3:2), table-setting.jpg -->
+                        <img src="assets/images/table-setting.jpg" alt="テーブルセッティング" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-caption">テーブルセッティング</div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="interior">
+                        <!-- 推奨画像サイズ: 600x400px (3:2), sake-display.jpg -->
+                        <img src="assets/images/sake-display.jpg" alt="日本酒ディスプレイ" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-caption">日本酒ディスプレイ</div>
+                        </div>
+                    </div>
+
+                    <!-- 外観写真 -->
+                    <div class="gallery-item" data-category="exterior">
+                        <!-- 推奨画像サイズ: 600x400px (3:2), exterior-front.jpg -->
+                        <img src="assets/images/exterior-front.jpg" alt="店舗外観（正面）" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-caption">店舗外観（正面）</div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="exterior">
+                        <!-- 推奨画像サイズ: 600x400px (3:2), entrance.jpg -->
+                        <img src="assets/images/entrance.jpg" alt="エントランス" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-caption">エントランス</div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="exterior">
+                        <!-- 推奨画像サイズ: 600x400px (3:2), signboard.jpg -->
+                        <img src="assets/images/signboard.jpg" alt="看板" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-caption">看板</div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="exterior">
+                        <!-- 推奨画像サイズ: 600x400px (3:2), night-view.jpg -->
+                        <img src="assets/images/night-view.jpg" alt="夜の外観" loading="lazy">
+                        <div class="gallery-overlay">
+                            <div class="gallery-caption">夜の外観</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Photo Information -->
+        <section style="background-color: #fefcf7; padding: 3rem 0;">
+            <div class="container">
+                <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+                    <h2 style="font-size: 1.5rem; margin-bottom: 1.5rem; color: #1a365d;">写真について</h2>
+                    <p style="line-height: 1.7; color: #4a5568; margin-bottom: 2rem;">
+                        こちらの写真は、実際に雅でご提供している料理と店内の様子です。<br>
+                        季節により食材や盛り付けが変更になる場合がございます。<br>
+                        写真はイメージであり、実際の商品・サービスとは一部異なる場合があります。
+                    </p>
+                    
+                    <div style="background-color: white; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+                        <h3 style="font-size: 1.125rem; margin-bottom: 1rem; color: #1a365d;">撮影・掲載について</h3>
+                        <ul style="text-align: left; color: #4a5568; line-height: 1.6;">
+                            <li style="margin-bottom: 0.5rem;">• 料理写真の無断転載・使用はご遠慮ください</li>
+                            <li style="margin-bottom: 0.5rem;">• SNSでのシェアは歓迎いたします（#雅成瀬 をつけていただけると嬉しいです）</li>
+                            <li style="margin-bottom: 0.5rem;">• 店内でのお写真撮影は、他のお客様のご迷惑にならないようお願いいたします</li>
+                            <li>• フラッシュ撮影はご遠慮ください</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Related Links -->
+        <section style="padding: 4rem 0;">
+            <div class="container">
+                <h2 class="section-title">関連情報</h2>
+                <div class="features-grid">
+                    <article class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">お料理メニュー</h3>
+                        <p class="feature-description">こだわりの食材を使った季節のお料理メニューと料金をご確認いただけます。</p>
+                        <div style="margin-top: 1.5rem;">
+                            <a href="menu.html" class="btn btn-outline">メニューを見る</a>
+                        </div>
+                    </article>
+                    
+                    <article class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">店舗情報</h3>
+                        <p class="feature-description">営業時間、座席数、料金の目安など、詳しい店舗情報をご確認いただけます。</p>
+                        <div style="margin-top: 1.5rem;">
+                            <a href="about.html" class="btn btn-outline">店舗情報を見る</a>
+                        </div>
+                    </article>
+                    
+                    <article class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">ご予約</h3>
+                        <p class="feature-description">お電話またはオンラインフォームにて、お席のご予約を承っております。</p>
+                        <div style="margin-top: 1.5rem;">
+                            <a href="contact.html" class="btn btn-outline">予約する</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section style="background-color: #1a365d; padding: 4rem 0; color: white; text-align: center;">
+            <div class="container">
+                <h2 style="font-size: 1.875rem; margin-bottom: 1rem; color: white;">実際に味わってみませんか？</h2>
+                <p style="font-size: 1.125rem; margin-bottom: 2rem; opacity: 0.9;">
+                    写真でご覧いただいた美味しい料理を<br>
+                    ぜひ実際にお召し上がりください
+                </p>
+                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                    <a href="tel:+81-42-123-4567" class="btn btn-primary">
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                        </svg>
+                        今すぐ予約：042-123-4567
+                    </a>
+                    <a href="contact.html" class="btn btn-secondary">予約フォーム</a>
+                </div>
+                <p style="font-size: 0.875rem; margin-top: 1.5rem; opacity: 0.7;">
+                    営業時間：月〜土 17:00-24:00（日曜定休）
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3 class="footer-title">雅 MIYABI</h3>
+                    <address class="footer-address">
+                        〒194-0045<br>
+                        東京都町田市南成瀬1-2-3 成瀬ビル2F<br>
+                        <a href="tel:+81-42-123-4567" class="footer-phone">TEL: 042-123-4567</a>
+                    </address>
+                    <div class="footer-hours">
+                        <strong>営業時間:</strong> 月〜土 17:00-24:00（日曜定休）
+                    </div>
+                </div>
+                
+                <nav class="footer-nav">
+                    <h4 class="footer-nav-title">サイトマップ</h4>
+                    <ul class="footer-menu">
+                        <li><a href="index.html">ホーム</a></li>
+                        <li><a href="menu.html">お料理・お飲み物</a></li>
+                        <li><a href="about.html">店舗情報</a></li>
+                        <li><a href="gallery.html">ギャラリー</a></li>
+                        <li><a href="access.html">アクセス</a></li>
+                        <li><a href="contact.html">ご予約・お問い合わせ</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="footer-copyright">&copy; 2024 雅 MIYABI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        // ギャラリーフィルター機能
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.gallery-filter');
+            const galleryItems = document.querySelectorAll('.gallery-item');
+            
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const filter = this.getAttribute('data-filter');
+                    
+                    // ボタンのアクティブ状態を更新
+                    filterButtons.forEach(btn => {
+                        btn.classList.remove('active');
+                        btn.style.background = 'transparent';
+                        btn.style.color = '#1a365d';
+                    });
+                    this.classList.add('active');
+                    this.style.background = '#1a365d';
+                    this.style.color = 'white';
+                    
+                    // 画像をフィルタリング
+                    galleryItems.forEach(item => {
+                        const category = item.getAttribute('data-category');
+                        if (filter === 'all' || category === filter) {
+                            item.style.display = 'block';
+                            setTimeout(() => {
+                                item.style.opacity = '1';
+                                item.style.transform = 'scale(1)';
+                            }, 10);
+                        } else {
+                            item.style.opacity = '0';
+                            item.style.transform = 'scale(0.8)';
+                            setTimeout(() => {
+                                item.style.display = 'none';
+                            }, 300);
+                        }
+                    });
+                });
+            });
+            
+            // 初期状態のスタイル設定
+            galleryItems.forEach(item => {
+                item.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
+            });
+        });
+    </script>
+</body>
+</html>
