@@ -438,14 +438,18 @@ a:focus {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -2;
+    z-index: 0;
 }
 
 .hero-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
     background-color: transparent; /* ユーザー希望: 透明背景 */
+    z-index: 0;
 }
 
 .hero-image::after {
@@ -455,14 +459,8 @@ a:focus {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%);
-    z-index: -1;
-}
-
-/* Page-specific darker overlays (0.65) */
-.home-hero .hero-image::after,
-.menu-hero .hero-image::after {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.65) 100%);
+    z-index: 1; /* 画像の上に配置 */
 }
 
 .hero-content {
@@ -470,14 +468,8 @@ a:focus {
     color: var(--white);
     max-width: 800px;
     padding: 0 var(--space-lg);
-}
-
-.hero-content .hero-text {
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 0.35);
-    padding: 1.25rem 1.5rem;
-    border-radius: 10px;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+    position: relative;
+    z-index: 2; /* オーバーレイより前面 */
 }
 
 .hero-title {
