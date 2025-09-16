@@ -421,6 +421,11 @@ a:focus {
     padding-top: var(--header-height); /* ヘッダー固定分の余白をマージンでなくパディングで確保（マージン折り畳み防止） */
 }
 
+/* 先頭がヒーローのページでは、ヒーローをヘッダー下に重ねる */
+.main > .hero:first-child {
+    margin-top: calc(var(--header-height) * -1);
+}
+
 /* Hero Section */
 .hero {
     position: relative;
