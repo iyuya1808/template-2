@@ -418,7 +418,7 @@ a:focus {
 
 /* Main Content */
 .main {
-    margin-top: var(--header-height);
+    padding-top: var(--header-height); /* ヘッダー固定分の余白をマージンでなくパディングで確保（マージン折り畳み防止） */
 }
 
 /* Hero Section */
@@ -430,6 +430,7 @@ a:focus {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    background-color: #0b0f14; /* ローディング時の白透け防止 */
 }
 
 .hero-image {
